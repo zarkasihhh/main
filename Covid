@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "pagi",
+        "siang",
+        "sore",
+        "malam",
+      ],
+      "responses": [
+        "Hai! Cobot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Aku Cobot, salam kenal ya! Mau tau tentang Covid-19, kan?",
+        "Helo! Dengan Cobot disini. Lagi kepo sama Covid-19 ya?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menegangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Macamaa :)"
+      ]
+    },
+    {
+      "tag": "penjelasan_covid",
+      "patterns": [
+        "Covid itu apa sih?"
+      ],
+      "responses": [
+        "Covid-19 itu penyakit menular yang berbahaya loh, Corona Virus Disease 2019 atau yang biasa disingkat COVID-19 adalah penyakit menular yang disebabkan oleh SARS-CoV-2, salah satu jenis koronavirus. Penderita COVID-19 dapat mengalami demam, batuk kering, dan kesulitan bernafas."
+      ]
+    },
+    {
+      "tag": "covid_menular",
+      "patterns": [
+        "Apa Covid itu menular?"
+      ],
+      "responses": [
+        "Oh sudah dipastikan IYA. Infeksi menyebar dari satu orang ke orang lain melalui percikan (droplet) dari saluran pernapasan yang sering dihasilkan saat batuk atau bersin. Jarak jangkauan droplet biasanya hingga 1 meter. Droplet bisa menempel di benda, namun tidak akan bertahan lama di udara. Waktu dari paparan virus hingga timbulnya gejala klinis antara 1-14 hari dengan rata-rata 5 hari. Maka, orang yang sedang sakit diwajibkan memakai masker guna meminimalisir penyebaran droplet."
+      ]
+    },
+    {
+      "tag": "gejala",
+      "patterns": [
+        "Apa gejala dari penyakit ini?"
+      ],
+      "responses": [
+        "Gejala dari penyakit Covid-19 itu ada yang umum dan juga ada yang tidak umum"
+      ]
+    },
+    {
+      "tag": "gejala_umum",
+      "patterns": [
+        "Kalo gejala umumnya apa?"
+      ],
+      "responses": [
+        "Gejala yang umum saat terkena penyakit Covid-19 itu demam,batuk,kelelahan, dan kehilangan rasa atau bau"
+      ]
+    },
+    {
+      "tag": "gejala_tidak_umum",
+      "patterns": [
+        "Kalo gejala tidak umumnya apa?"
+      ],
+      "responses": [
+        "Gejala yang tidak umum saat terkena penyakit Covid-19 itu sakit tenggorokan, sakit kepala, sakit dan nyeri, diare, ruam pada kulit atau perubahan warna pada jari tangan atau jari kaki, dan mata merah atau iritasi"
+      ]
+    },
+    {
+      "tag": "mencegah",
+      "patterns": [
+        "Kalo buat mencegah covid ada ga?"
+      ],
+      "responses": [
+        "Ada kokk, Tindakan pencegahan untuk mengurangi kemungkinan infeksi antara lain tetap berada di rumah, menghindari bepergian dan beraktivitas di tempat umum, sering mencuci tangan dengan sabun dan air, tidak menyentuh mata, hidung, atau mulut dengan tangan yang tidak dicuci. Segera hubungi Hotline jika Anda mengalami gejala atau memiliki riwayat perjalanan/berpergian dari Negara yang terjangkit."
+      ]
+    }
+  ]
+}
